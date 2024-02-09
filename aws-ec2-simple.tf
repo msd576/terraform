@@ -1,3 +1,7 @@
+terraform {
+  source = "./aws-ec2-simple.tf"
+}
+
 provider "aws" {
   region = "us-east-1"
 }
