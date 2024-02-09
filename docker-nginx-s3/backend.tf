@@ -10,6 +10,6 @@ terraform {
     profile = "demo"
     region  = "us-east-1"
     key     = "terraform.tfstate"
-    bucket  = "<AWS-S3-BUCKET>"
+    bucket  = "<AWS-S3-BUCKET>" #s3 bucket should be existing
   }
 }
