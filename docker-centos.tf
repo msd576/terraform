@@ -1,3 +1,7 @@
+terraform {
+  source = "./docker-centos.tf"
+}
+
 # Configure the Docker provider
 provider "docker" {}
 
